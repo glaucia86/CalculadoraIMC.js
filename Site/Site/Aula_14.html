@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Curso de JavaScript XTI - Aula 14</title>
+    <link type="text/css" rel="stylesheet" href="Content/bootstrap.css" />
+    <script type="text/javascript" src="aula_14.js"></script>
+    <link type="text/css" href="Estilo.css" rel="stylesheet" />
+</head>
+<script src="Scripts/jquery-1.9.0.min.js"></script>
+<body>
+    <form id="formulario">
+        <div class="jumbotron">
+            <h1>Cálculo do IMC</h1>
+        </div>
+  
+            <div class="span2">
+            </div>
+            <div class="span10">
+                <fieldset class="scheduler-border">
+                    <legend class="scheduler-border">Cálculo</legend>
+
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <label class="control-label" for="kilos">Kilos:</label>
+                            <input class="form-control" type="text" name="kilos" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <label class="control-label" for="metros">Altura:</label>
+                            <input class="form-control" type="text" name="altura" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <label for="imc">IMC:</label>
+                            <input class="form-control" type="text" name="imc" disabled="disabled" />
+                        </div>
+                    </div>
+                    
+                    <br /><br />
+                    <div class="row">
+                        <button type="button" class="btn btn-primary" onclick="calcularIMC();">Calcular</button>
+                        <button type="reset" class="btn btn-default" >Limpar</button>
+
+                    </div>
+                </fieldset>
+            </div>
+    </form>
+
+    <div class="col-lg-3">
+        <table class="table table-bordered" >
+            <tr>
+                <th class="active">IMC</th>
+                <th class="active">Classificação</th>
+            </tr>
+            <tr>
+                <td class="info">&lt; 20</td>
+                <td class="info">Abaixo do Peso</td>
+            </tr>
+            <tr>
+                <td>20 a 25</td>
+                <td>Peso Ideal</td>
+            </tr>
+            <tr>
+                <td class="info">25 a 30</td>
+                <td class="info">Sobrepeso</td>
+            </tr>
+            <tr>
+                <td>30 a 35 </td>
+                <td>Obesidade Moderada</td>
+            </tr>
+            <tr>
+                <td class="info">35 a 40 </td>
+                <td class="info">Obesidade Severa</td>
+            </tr>
+            <tr>
+                <td>40 a 50 </td>
+                <td>Obesidade Mórbida</td>
+            </tr>
+            <tr>
+                <td class="info">&gt; a 50</td>
+                <td class="info">Super Obesidade</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

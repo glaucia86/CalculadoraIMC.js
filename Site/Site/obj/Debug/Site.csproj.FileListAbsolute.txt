@@ -1,0 +1,5 @@
+C:\Users\Glaucia\Documents\Visual Studio 2012\Projects\Exemplos - JavaScript XTI\Aula_14\Site\Site\bin\Site.dll
+C:\Users\Glaucia\Documents\Visual Studio 2012\Projects\Exemplos - JavaScript XTI\Aula_14\Site\Site\bin\Site.pdb
+C:\Users\Glaucia\Documents\Visual Studio 2012\Projects\Exemplos - JavaScript XTI\Aula_14\Site\Site\obj\Debug\Site.csprojResolveAssemblyReference.cache
+C:\Users\Glaucia\Documents\Visual Studio 2012\Projects\Exemplos - JavaScript XTI\Aula_14\Site\Site\obj\Debug\Site.dll
+C:\Users\Glaucia\Documents\Visual Studio 2012\Projects\Exemplos - JavaScript XTI\Aula_14\Site\Site\obj\Debug\Site.pdb

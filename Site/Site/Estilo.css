@@ -1,0 +1,36 @@
+﻿th, td { 
+    border: 1px solid #000; font-size: 0.8em; 
+}
+        
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin:  0 0 1.5em 20px !important;
+    -webkit-box-shadow: 0px 0px 0px 0px #000;
+            box-shadow: 0px 0px 0px 0px #000;
+    width: 300px;
+}
+
+legend.scheduler-border {
+    width: auto;
+    padding: 0 10px;
+    border-bottom:none;
+}
+
+label { 
+    display:block; float:left; 
+
+}
+
+label, input {
+    width: 68px;
+}
+
+button {
+    margin-left: 15px;
+}
+
+table {
+    margin:  0 0 1.5em 20px !important;
+}
+
